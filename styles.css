@@ -1,35 +1,72 @@
-#input-text{
-    width:80%;
-    height:10vh;
-    display:block;
-    margin:1rem;
-    padding:1rem;
-    
+:root {
+    --primary-color:green;
+   
+  }
+  
+  body {
+    font-family: 'Kalam', cursive;
+         
+  }
+  
+  .navigation {
+      background-color: var(--primary-color);
+      padding: 1rem;
+      
     }
-    
-    #output{
-        
-        border: 1px solid black;
-        width: 80%;
-        height: 10vh;
-        margin: 1rem;
-        padding: 1rem;
-    }
-    
-    h1{
-        text-align:center;
-    }
-
-    div{
-        padding-left: 1rem;
-    }
-    
-    #button-translated{
-        background-color: green;
-        color:white;
-        margin: 1rem;
-        padding: 1rem;
-        border-style: none;
-        
+  
+  
+  
+  
+  
+  
+  #input-text{
+  width:80%;
+  height:10vh;
+  display:block;
+  margin:1rem;
+  padding:1rem;
+  
+  }
+  
+  #output{
+      
+      border: 1px solid black;
+      width: 80%;
+      height: 10vh;
+      margin: 1rem;
+      padding: 1rem;
+  }
+  
+  
+  
+  h1{
+      text-align:center;
+      }
+  
+  #button-translated{
+      background-color: var(--primary-color);
+      margin: 1rem;
+      padding: 1rem;
+      border-style: none;
+      
+  }
+   p{
+      padding:1rem;
+   }
+  
+  
+  main{
+      display:block;
+      padding:1rem;
+      max-width:600px;
+      margin:auto;
+  }
+  
+  footer {
+      background-color: var(--primary-color);
+      padding: 1rem;
+      text-align: center;
+      
+      
     }
     
